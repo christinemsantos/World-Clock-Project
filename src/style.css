@@ -32,7 +32,7 @@ footer {
 .container-3,
 .container-4 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 75%;
   background-color: aliceblue;
   margin: 0 auto;
