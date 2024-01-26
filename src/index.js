@@ -50,7 +50,8 @@ function selectCity(event) {
           <div class="time">${cityTime.format("h:mm:ss A")}
           </div>
         </div>
-        </div>`;
+        </div>
+        <a href "/">👈 Go back to home</a>`;
 }
 let citySelect = document.querySelector("#timezone");
 citySelect.addEventListener("change", selectCity);
